@@ -3,6 +3,7 @@ module github.com/SimonRichardson/echelon
 go 1.14
 
 require (
+	github.com/aws/aws-sdk-go v1.31.15
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/fvbock/endless v0.0.0-20170109170031-447134032cb6
 	github.com/garyburd/redigo v1.6.0
@@ -11,6 +12,7 @@ require (
 	github.com/gorilla/mux v1.7.4 // indirect
 	github.com/gorilla/pat v1.0.1
 	github.com/hashicorp/consul/api v1.1.0
+	github.com/hashicorp/go-cleanhttp v0.5.1
 	github.com/peterbourgon/g2s v0.0.0-20170223122336-d4e7ad98afea
 	github.com/prometheus/client_golang v1.6.0
 	github.com/spf13/viper v1.7.0

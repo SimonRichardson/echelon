@@ -5,22 +5,22 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/SimonRichardson/echelon/internal/typex"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/SimonRichardson/echelon/internal/typex"
 )
 
 const (
 	fileType = "text/plain; charset=utf-8"
 	filePath = "/perf/echelon/perf-%s.csv"
 
-	awsId     = "AKIAIWOABN4ISI2XB5CQ"
-	awsSecret = "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"
+	awsId     = ""
+	awsSecret = ""
 	awsToken  = ""
-	awsRegion = "eu-west-1"
-	awsBucket = "SimonRichardson-ci-metrics"
+	awsRegion = ""
+	awsBucket = "ci-metrics"
 )
 
 func upload(content []byte) {
